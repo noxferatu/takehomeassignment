@@ -1,9 +1,8 @@
 # Manual testing for RStudio Cloud
 
-\### **I found the following bug when working on the manual test:**\
+\### **NOTE: I found the following bug when working on the manual test:**\
 Within RStudio Cloud, according to the delete space action pop-up typing the phrase “Delete [spacename]” should be required to enable the delete button, but I can delete the space by pressing the enter/return key with nothing in the field. If I enter random data into the field, the Delete button doesn’t become enabled, but I can still press the enter/return key and the space is deleted. 
 ![Screen Shot 2022-05-09 at 10 42 10 PM](https://user-images.githubusercontent.com/2002406/167876493-a2b5fe8e-a5ea-4f9e-bdb5-481c1fd8b816.png)\
-\###
 
 ## Manual Tests: 
 
