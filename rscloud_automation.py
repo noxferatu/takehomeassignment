@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
+
 PATH = "/Users/noxferatu/Documents/projects/takehomeassignment/chromedriver"
 driver = webdriver.Chrome(PATH)
 
@@ -51,16 +51,10 @@ except:
 print("\nTest complete: New project created and IDE loaded.\n")
 
 # Test 3: Run Demo in IDE
-print("\nTest: Run Demo in IDE\n")time.sleep(10)
+print("\nTest: Run Demo in IDE\n")
 
 # consoleentry = driver.find_element_by_id("rstudio_console_input")
 # consoleentry.send_keys("demo(error.catching)")
 # consoleentry.send_keys(Keys.RETURN)
 # consoleentry.send_keys(Keys.RETURN)
 
-# iframe = driver.find_element(By.ID, "rstudio_console_interpreter_version_tabbed")
-# print("\n" + driver.page_source +"\n")
-# driver.switch_to.frame("contentIFrame")
-# driver.find_element_by_id("gwt-MenuItem")
-# demorun.send_keys("demo()")
-# demorun.send_keys(Keys.RETURN)
